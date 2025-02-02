@@ -1,0 +1,41 @@
+{
+  "title": "[UU] Free Forest Map - 3D Perspective",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12"
+  },
+  "relationships": {
+    "recommends": [
+      {
+        "id": "levels",
+        "type": "module",
+        "compatibility": {}
+      }
+    ]
+  },
+  "description": "This first trial pack allows you to discover the kind of maps I create. Feel free to visit my Patreon to see the other assets and packs.\nLevels module from TheRipper93 and his dependencies are recommanded, but all works without these.",
+  "authors": [
+    {
+      "name": "Toumou",
+      "url": "https://www.patreon.com/toumou",
+      "flags": {}
+    }
+  ],
+  "packs": [
+    {
+      "name": "uu-forest-maps",
+      "label": "[UU] Forest maps",
+      "path": "packs/uu-forest-maps",
+      "type": "Scene",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "id": "uu-free-forest-map-3d-perspective",
+  "url": "https://github.com/ToumouGaming/uu-free-forest-map-3d-perspective",
+  "manifest": "https://github.com/ToumouGaming/uu-free-forest-map-3d-perspective/releases/latest/download/module.json",
+  "download": "https://github.com/ToumouGaming/uu-free-forest-map-3d-perspective/releases/download/0.0.2/uu-free-forest-map-3d-perspective.zip"
+}
